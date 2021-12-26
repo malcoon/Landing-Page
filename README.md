@@ -27,3 +27,4 @@
 ### Próximos Passos
 * Responsividade
 * ScrollReveal
+* Dark Mode
