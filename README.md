@@ -22,3 +22,8 @@
 ## Tecnologias usadas
 * HTML
 * CSS
+* VS Code
+
+### Próximos Passos
+* Responsividade
+* ScrollReveal
