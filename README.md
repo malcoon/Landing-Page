@@ -26,5 +26,5 @@
 
 ### Próximos Passos
 * Responsividade
-* ScrollReveal
+* ScrollReveal - Ok
 * Dark Mode
