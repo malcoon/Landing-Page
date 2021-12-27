@@ -134,8 +134,8 @@ body {
     padding: 60px 50px;
     border-radius: 6px;
     flex-direction: column;
-    background-color: #f3f4f6;
-    border: 1px solid rgba(0, 0, 0, 0.02);
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
 }
 
 .form-title {
@@ -582,6 +582,7 @@ textarea {
 
 @media only screen and (max-width: 375px) {
     .content {
+        padding: 0 10px;
         margin-bottom: 15px;
     }
 
