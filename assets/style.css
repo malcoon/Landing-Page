@@ -387,6 +387,8 @@ textarea {
 }
 
 .map iframe {
+    width: 550px;
+    height: 450px;
     border-radius: 10px;
 }
 
@@ -440,6 +442,20 @@ textarea {
         gap: 20px;
         padding: 50px 40px;
     }
+
+    .contact {
+        padding: 40px 5%;
+    }
+
+    .form-contact {
+        padding: 50px 0;
+    }
+
+    .map iframe {
+        width: 450px;
+        height: 350px;
+        border-radius: 10px;
+    }
 }
     
 @media only screen and (max-width: 992px) {
@@ -451,7 +467,7 @@ textarea {
         font-size: 18px;
     }
 
-    .primary-btn {
+    .primary-btn, .form-contact-btn {
         font-size: 16px;
     }
 
@@ -460,16 +476,34 @@ textarea {
         padding: 30px 20px;
     }
 
+    .form-contact {
+        gap: 16px;
+    }
+
+    .form-contact input, textarea, .form-contact-btn {
+        width: 400px;
+    }
+
     .primary, .primary-login {
         padding: 100px 0;
     }
 
-    .form input {
+    .form input, .form-contact input {
         padding: 16px;
     }
 
     .primary-login .primary-description {
         max-width: 420px;
+    }
+
+    .contact {
+        padding: 50px 2%;
+    }
+
+    .map iframe {
+        width: 440px;
+        height: 300px;
+        border-radius: 10px;
     }
 }
 
@@ -513,6 +547,27 @@ textarea {
         gap: 100px;
         margin-bottom: 30px;
     }
+
+    .contact {
+        gap: 20px;
+        padding: 30px 5%;
+        flex-direction: column;
+    }
+
+    .form-contact input, textarea, .form-contact-btn {
+        width: 600px;
+    }
+
+    .contact-adress , .contact-phone {
+        margin: 20px 0;
+        justify-content: center;
+    }
+
+    .map iframe {
+        width: 600px;
+        height: 550px;
+        border-radius: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -523,6 +578,19 @@ textarea {
 
     .footer {
         gap: 30px;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .form-contact input, textarea, .form-contact-btn {
+        width: 500px;
+    }
+
+    .map iframe {
+        width: 500px;
+        height: 450px;
     }
 }
 
@@ -590,6 +658,25 @@ textarea {
     .copyright, .terms {
         font-size: 14px;
     }
+
+    .contact-adress , .contact-phone {
+        margin: 15px 0;
+        justify-content: left;
+    }
+
+    .form-contact {
+        gap: 10px;
+        padding: 40px 0;
+    }
+
+    .form-contact input, textarea, .form-contact-btn {
+        width: 400px;
+    }
+
+    .map iframe {
+        width: 400px;
+        height: 350px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -605,10 +692,35 @@ textarea {
     .form {
         max-width: 350px;
     }
+
+    .contact-adress , .contact-phone {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    .form-contact input, textarea, .form-contact-btn {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .map iframe {
+        width: 350px;
+        height: 300px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .form {
         max-width: 300px;
+    }
+
+    .form-contact input, textarea, .form-contact-btn {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .map iframe {
+        width: 300px;
+        height: 260px;
     }
 }
