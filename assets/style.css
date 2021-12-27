@@ -456,6 +456,10 @@ textarea {
         height: 350px;
         border-radius: 10px;
     }
+
+    .about {
+        padding: 70px 9%;
+    }
 }
     
 @media only screen and (max-width: 992px) {
@@ -504,6 +508,18 @@ textarea {
         width: 440px;
         height: 300px;
         border-radius: 10px;
+    }
+
+    .about {
+        padding: 100px 9%;
+    }
+
+    .about-title {
+        font-size: 48px;
+    }
+    
+    .about-description {
+        font-size: 18px;
     }
 }
 
@@ -568,6 +584,16 @@ textarea {
         height: 550px;
         border-radius: 10px;
     }
+
+    .about-link {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+        .about-link i {
+            font-size: 16px;
+            margin-left: 4px;
+        }
 }
 
 @media only screen and (max-width: 600px) {
@@ -591,6 +617,14 @@ textarea {
     .map iframe {
         width: 500px;
         height: 450px;
+    }
+
+    .about-title {
+        font-size: 36px;
+    }
+    
+    .about-description {
+        font-size: 16px;
     }
 }
 
@@ -677,6 +711,10 @@ textarea {
         width: 400px;
         height: 350px;
     }
+
+    .about {
+        padding: 60px 9%;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -707,6 +745,10 @@ textarea {
         width: 350px;
         height: 300px;
     }
+
+    .about {
+        padding: 60px 6%;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -717,6 +759,10 @@ textarea {
     .form-contact input, textarea, .form-contact-btn {
         width: 300px;
         font-size: 14px;
+    }
+
+    .about {
+        padding: 50px 6%;
     }
 
     .map iframe {
