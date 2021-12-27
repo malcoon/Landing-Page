@@ -11,7 +11,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-y: none;
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -29,6 +28,10 @@ body {
     padding: 24px 0;
     align-items: center;
     justify-content: space-around;
+}
+
+.navbar-mobile {
+    display: none;
 }
 
 .navbar {
@@ -411,3 +414,184 @@ textarea {
         color: #4755d6;
         transition: .2s ease-in-out;
     }
+
+@media only screen and (max-width: 1200px) {
+    .primary-title {
+        font-size: 48px;
+    }
+    
+    .primary-description {
+        font-size: 18px;
+    }
+
+    .primary-btn {
+        font-size: 16px;
+    }
+
+    .form {
+        gap: 20px;
+        padding: 50px 40px;
+    }
+}
+    
+@media only screen and (max-width: 992px) {
+    .primary-title {
+        font-size: 42px;
+    }
+    
+    .primary-description {
+        font-size: 18px;
+    }
+
+    .primary-btn {
+        font-size: 16px;
+    }
+
+    .form {
+        gap: 16px;
+        padding: 30px 20px;
+    }
+
+    .primary, .primary-login {
+        padding: 100px 0;
+    }
+
+    .form input {
+        padding: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        gap: 100px;
+    }
+
+    .primary {
+        gap: 60px;
+        padding: 50px 0;
+        flex-direction: column;
+    }
+    
+    .primary-content {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .primary-title {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .primary-description {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .primary-btn {
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .primary-btn i {
+        font-size: 10px;
+    }
+
+    .footer {
+        gap: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navbar {
+        display: none;
+    }
+
+    .footer {
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .primary-title {
+        font-size: 36px;
+    }
+
+    .primary {
+        padding: 10px 0;
+    }
+    
+    .primary-description {
+        font-size: 14px;
+    }
+
+    .primary-btn {
+        font-size: 14px;
+    }
+
+    .form {
+        gap: 16px;
+        padding: 30px 20px;
+    }
+
+    .primary {
+        padding: 50px 0;
+    }
+
+    .primary-btn i {
+        font-size: 10px;
+    }
+
+    .form {
+        gap: 10px;
+        width: 100%;
+        max-width: 380px;
+        padding: 30px 10px;
+        border-radius: 6px;
+    }
+
+    .form-title {
+        font-size: 18px;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .form-btn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .footer {
+        gap: 6px;
+        padding-top: 30px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .copyright, .terms {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .primary-title {
+        font-size: 32px;
+    }
+
+    .form {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .form {
+        max-width: 310px;
+    }
+}
