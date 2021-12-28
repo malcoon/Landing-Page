@@ -25,6 +25,6 @@
 * VS Code
 
 ### Próximos Passos
-* Responsividade
+* Responsividade - Ok
 * ScrollReveal - Ok
-* Dark Mode
+* Dark Mode - Em breve!
