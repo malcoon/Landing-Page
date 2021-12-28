@@ -24,7 +24,4 @@
 * CSS
 * VS Code
 
-### Próximos Passos
-* Responsividade - Ok
-* ScrollReveal - Ok
-* Dark Mode - Em breve!
+### Projeto Finalizado ✌️
