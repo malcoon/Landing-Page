@@ -46,3 +46,11 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   hamburger.classList.remove("active");
   navNavbar.classList.remove("active");
 }))
+
+
+
+    // Desenvolvido por Renilson Medeiros [Malcoon] - Dezembro 2021
+
+    // Twitter: @malcoon_
+    // Instagram: @_malcoon
+    // Github: github.com/malcoon
