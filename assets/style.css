@@ -700,6 +700,10 @@ textarea {
 }
 
 @media only screen and (max-width: 425px) {
+    .header {
+        gap: 150px;
+    }
+
     .primary-title {
         font-size: 36px;
     }
@@ -789,6 +793,10 @@ textarea {
 }
 
 @media only screen and (max-width: 375px) {
+    .header {
+        gap: 100px;
+    }
+
     .content {
         padding: 0 10px;
         margin-bottom: 15px;
@@ -823,6 +831,11 @@ textarea {
 }
 
 @media only screen and (max-width: 320px) {
+    .header {
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
     .form {
         max-width: 300px;
     }
