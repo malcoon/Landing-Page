@@ -816,12 +816,12 @@ textarea {
     }
 
     .form-contact input, textarea, .form-contact-btn {
-        width: 350px;
+        width: 340px;
         font-size: 14px;
     }
 
     .map iframe {
-        width: 350px;
+        width: 340px;
         height: 300px;
     }
 
