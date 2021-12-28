@@ -30,14 +30,29 @@ body {
     justify-content: space-around;
 }
 
-.navbar-mobile {
+.navbar-hamburger {
     display: none;
+    cursor: pointer;
 }
+
+.hamburger-bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #343a40;
+  }
 
 .navbar {
     gap: 36px;
     display: flex;
     align-items: center;
+}
+
+.navbar-title {
+    display: none;
 }
 
     .navbar-link {
@@ -52,7 +67,7 @@ body {
         transition: .2s linear;
     }
 
-.navbar-link:last-child {
+.navbar-link:nth-child(4) {
     padding: 0 20px;
     color: #f8f9fa;
     line-height: 40px;
@@ -597,9 +612,9 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-    
-    .navbar {
-        display: none;
+    .header {
+        gap: 300px;
+        justify-content: space-around;
     }
 
     .footer {
@@ -626,6 +641,62 @@ textarea {
     .about-description {
         font-size: 16px;
     }
+
+/* Navbar Mobile*/
+.navbar-hamburger {
+    display: block;
+    z-index: 99999;
+}
+
+    .navbar-hamburger.active .hamburger-bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .navbar-hamburger.active .hamburger-bar:nth-child(1){
+        background-color: #5465ff;
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .navbar-hamburger.active .hamburger-bar:nth-child(3){
+        background-color: #5465ff;
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+.navbar {
+    top: 0px;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    transition: .2s ease-in;
+    backdrop-filter: blur(5px);
+    background-color: #f8f9fa;
+}
+
+.navbar-title {
+    display: block;
+    font-size: 20px;
+    color: #5465ff;
+    text-transform: uppercase;
+}
+
+.navbar.active {
+    right: 0%;
+    transition: .2s ease-in;
+}
+
+.navbar-link {
+    padding: 0 20px;
+    font-weight: 500;
+    color: #343a40;
+    text-align: center;
+}
+
 }
 
 @media only screen and (max-width: 425px) {
